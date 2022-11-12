@@ -18,8 +18,9 @@ public class Discount {
 	 
 	public void notifyAllObservers(){ 
 		for (Items observer : observers) { 
-			observer.update(); } 
+			observer.update(getDiscount()); } 
           }
+    
     public static Discount getInstance(){
         if(instance == null){
             instance = new Discount();
