@@ -26,9 +26,9 @@ public class Milk implements Items{
     }
 
     @Override
-    public void update() {
+    public void update(double discount) {
         // TODO Auto-generated method stub
-        this.price *= (discountValue.getDiscount()/100);
+        this.price *= (discount/100);
     }
     
 }
