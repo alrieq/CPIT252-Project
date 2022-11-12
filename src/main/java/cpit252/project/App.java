@@ -8,7 +8,7 @@ public class App
         s.addItems("Milk");
         s.addItems("cheese");
         
-        s.setDiscount(30);
+        s.setDiscount("KSA");
         s.addItems("Milk");
         s.addItems("Bread");
         s.addItems("Bread");

@@ -33,7 +33,7 @@ public class Cheese implements Items {
     @Override
     public void update(double discount) {
         // TODO Auto-generated method stub
-        this.price *= (discount / 100);
+        this.price -= this.price * (discount/100);
     }
 
 }

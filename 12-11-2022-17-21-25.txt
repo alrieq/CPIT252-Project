@@ -1,0 +1,17 @@
+INFO: A new order was created
+INFO: Order info:
+Order number: 1779790369
+Date2022-11-12
+INFO: Milk has been added to your Order and the price is 7.0
+INFO: Cheese has been added to your Order and the price is 2.0
+INFO: Milk has been added to your Order and the price is 4.9
+INFO: Bread has been added to your Order and the price is 1.4
+INFO: Bread has been added to your Order and the price is 1.4
+INFO: Bread has been added to your Order and the price is 1.4
+INFO: Cheese has been added to your Order and the price is 1.4
+INFO: A new shipment was created for Order Number: 1779790369
+INFO: Shipment info:
+Tracking number: 2042658753
+Name Khalid
+Address: Alnaseem, Mohammed Ibn Malukah St. Jeddah
+Phone: 0554638495

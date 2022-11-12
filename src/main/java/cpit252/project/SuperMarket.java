@@ -18,8 +18,12 @@ public class SuperMarket {
     public void sendOrder(String name, String address, String phoneNumber){
         Shipment shipOrder = new Shipment(name, address, phoneNumber,order);
     }
-    public void setDiscount(double value){
+    public void setDiscount(String disName){
         Discount discount = Discount.getInstance();
-        discount.setDiscount(value);
+        if(disName.equalsIgnoreCase("KSA"))
+        discount.setDiscount(30);
+        else if(disName.equalsIgnoreCase("KAU"))
+        discount.setDiscount(15);
+        
     }
 }
